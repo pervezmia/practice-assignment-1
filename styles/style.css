@@ -6,3 +6,64 @@
 #all-page{
     background-color: #F1F1F3;
 }
+header nav{
+    width: 70%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+
+#hero-section{
+    width: 70%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+#hero-section .hero-container{
+    background-color: #C6E4D6;
+    display: flex;
+    gap: 64px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+    border-radius: 24px;
+    
+}
+.hero-container .hero-content{
+    max-width: 622px;
+
+}
+.hero-container .hero-content p {
+    color: #0e0e0e7a;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hero-container .hero-content h1 {
+    font-size: 56px;
+    font-weight: 800;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.hero-container .hero-content button{
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    
+} 
+.hero-container .hero-content button a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.hero-container .hero-png{
+    max-width: 474px;
+
+ }
