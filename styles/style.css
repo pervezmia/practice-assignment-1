@@ -94,10 +94,14 @@ header nav {
 
 }
 
+/* pillar of bangladesh */
 
 #main-section {
     max-width: 1280px;
     margin: 0 auto;
+}
+.card-title{
+    display: flex;
 }
 
 .pillar-of-bd {
@@ -146,6 +150,97 @@ header nav {
 
 }
 
+/* the vision of future */
+
+    #vision{
+        margin-bottom: 80px;
+    }
+    .future-title h3{
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #0E0E0E;
+        margin-bottom: 24px;
+    }
+    .future-title p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 32px;
+        color: #0E0E0E;
+    }
+
+    .card-container{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 32px;
+    }
+    .card{
+        max-width: 410px;
+        background-color: rgba(84, 144, 245, 0.2);
+        border-radius: 16px;
+    }
+    .card-2{
+        
+        background-color: #C6E4D6;
+        
+    }
+    .card-3{
+        background-color: rgba(247, 235, 207, 1);
+    }
+    .card div{
+        padding: 32px;
+    }
+    .card div img{
+        width: 100%;
+        max-width: 64px;
+        margin-bottom: 24px;
+    }
+    .card div h4{
+        font-size: 1.4rem;
+        font-weight: 700;
+        margin-bottom: 12px;
+    }
+    .card div p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+    .btn{
+        border: none;
+        border-radius: 8px;
+        background-color: #5490F5;
+        color: #FFFFFF;
+    }
+    .btn-2{
+        background-color: #09A15C;
+    }
+    .btn-3{
+        background-color: #FFC239;
+    }
+
+
+    .description-of-vision{
+        padding: 48px 24px;
+        box-shadow: 0px 0px 4px 4px rgba(14, 14, 14, 0.15);
+        border-radius: 16px;
+    }
+    .description-of-vision p{
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 24px;
+        color: #0E0E0E;
+    }
+    .description-of-vision h4{
+        font-size: 1.4rem;
+        font-weight: 600;
+        line-height: 24px;
+        color: #0E0E0E;
+        margin-top: 12px;
+        margin-bottom: 4px;
+
+    }
+
 
 /* style for small device  */
 @media screen and (max-width: 576px) {
@@ -156,7 +251,9 @@ header nav {
         flex-direction: column;
 
     }
-
+    .card-title{
+        justify-content: center;
+    }
     .pillar-container {
         align-items: center;
         gap: 12px;
