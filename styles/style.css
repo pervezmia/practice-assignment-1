@@ -257,8 +257,20 @@ header nav {
     .pillar-container {
         align-items: center;
         gap: 12px;
-
+        
     }
-
+    .card-container{
+        flex-direction: column-reverse;
+        margin-bottom: 32px;
+        gap: 12px;
+        align-items: center;
+    }
+    .future-title{
+        text-align: center;
+        margin: 0px 20px;
+    }
+    .description-of-vision{
+        margin: 0px 20px;
+    }
     
 }
