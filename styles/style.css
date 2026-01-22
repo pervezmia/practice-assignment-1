@@ -100,7 +100,8 @@ header nav {
     max-width: 1280px;
     margin: 0 auto;
 }
-.card-title{
+
+.card-title {
     display: flex;
 }
 
@@ -152,94 +153,174 @@ header nav {
 
 /* the vision of future */
 
-    #vision{
-        margin-bottom: 80px;
-    }
-    .future-title h3{
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #0E0E0E;
-        margin-bottom: 24px;
-    }
-    .future-title p{
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        margin-bottom: 32px;
-        color: #0E0E0E;
+#vision {
+    margin-bottom: 80px;
+}
+
+.section-title h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.section-title p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 32px;
+    color: #0E0E0E;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.card {
+    max-width: 410px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+
+.card-2 {
+
+    background-color: #C6E4D6;
+
+}
+
+.card-3 {
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.card div {
+    padding: 32px;
+}
+
+.card div img {
+    width: 100%;
+    max-width: 64px;
+    margin-bottom: 24px;
+}
+
+.card div h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.card div p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    background-color: #5490F5;
+    color: #FFFFFF;
+}
+
+.btn-2 {
+    background-color: #09A15C;
+}
+
+.btn-3 {
+    background-color: #FFC239;
+}
+
+
+.description-of-vision {
+    padding: 48px 24px;
+    box-shadow: 0px 0px 4px 4px rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.description-of-vision p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #0E0E0E;
+}
+
+.description-of-vision h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 24px;
+    color: #0E0E0E;
+    margin-top: 12px;
+    margin-bottom: 4px;
+
+}
+
+
+/* Opinion-section  */
+#Opinion-section {
+    margin: 80px 0px;
+}
+
+#Opinion-section table {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 12px;
+    box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.322);
+    border-radius: 16px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+
+}
+
+#Opinion-section .questions-container table {
+    td {
+        border: 1px solid rgba(126, 122, 131, 0.356);
     }
 
-    .card-container{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 32px;
+    .question-col {
+        width: 70%;
     }
-    .card{
-        max-width: 410px;
-        background-color: rgba(84, 144, 245, 0.2);
-        border-radius: 16px;
+
+    .select-col {
+        width: 30%;
     }
-    .card-2{
-        
+
+    th,
+    td {
+        padding: 24px;
+    }
+
+    th {
         background-color: #C6E4D6;
-        
-    }
-    .card-3{
-        background-color: rgba(247, 235, 207, 1);
-    }
-    .card div{
-        padding: 32px;
-    }
-    .card div img{
-        width: 100%;
-        max-width: 64px;
-        margin-bottom: 24px;
-    }
-    .card div h4{
-        font-size: 1.4rem;
-        font-weight: 700;
-        margin-bottom: 12px;
-    }
-    .card div p{
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        margin-bottom: 24px;
-    }
-    .btn{
-        border: none;
-        border-radius: 8px;
-        background-color: #5490F5;
-        color: #FFFFFF;
-    }
-    .btn-2{
-        background-color: #09A15C;
-    }
-    .btn-3{
-        background-color: #FFC239;
-    }
-
-
-    .description-of-vision{
-        padding: 48px 24px;
-        box-shadow: 0px 0px 4px 4px rgba(14, 14, 14, 0.15);
-        border-radius: 16px;
-    }
-    .description-of-vision p{
-        font-size: 1rem;
-        font-weight: 400;
-        line-height: 24px;
-        color: #0E0E0E;
-    }
-    .description-of-vision h4{
-        font-size: 1.4rem;
+        text-align: left;
+        font-size: 1.3rem;
         font-weight: 600;
-        line-height: 24px;
         color: #0E0E0E;
-        margin-top: 12px;
-        margin-bottom: 4px;
+    }
+
+    td {
+        background-color: rgba(255, 255, 255, 0.1);
+        font-size: 1rem;
+        font-weight: 600;
+        color: #0E0E0E;
+    }
+
+    .option {
+        border: 1px solid rgba(14, 14, 14, 1);
+        border-radius: 4px;
+        background-color: rgba(9, 161, 92, 0.15);
+        font-size: 1rem;
+        font-weight: 500;
+        color: #0E0E0E;
+        padding: 12.5px 16px;
+        outline: none;
+        width: 152px;
 
     }
+
+}
 
 
 /* style for small device  */
@@ -251,26 +332,43 @@ header nav {
         flex-direction: column;
 
     }
-    .card-title{
+
+    .card-title {
         justify-content: center;
     }
+
     .pillar-container {
         align-items: center;
         gap: 12px;
-        
+
     }
-    .card-container{
+
+    .card-container {
         flex-direction: column-reverse;
         margin-bottom: 32px;
         gap: 12px;
         align-items: center;
     }
-    .future-title{
+
+    .section-title {
         text-align: center;
         margin: 0px 20px;
     }
-    .description-of-vision{
+
+    .description-of-vision {
         margin: 0px 20px;
     }
-    
+
+    #Opinion-section {
+        /* margin: 20px; */
+        /* max-width: 350px; */
+    }
+
+    #Opinion-section .questions-container table{
+        .option {
+            width: 80px;
+
+        }
+
+    }
 }
