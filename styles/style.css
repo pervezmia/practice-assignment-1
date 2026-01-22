@@ -322,6 +322,46 @@ header nav {
 
 }
 
+/* Satellite of Bangladesh  */
+.Satellite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    box-shadow: 0px 0px 3px 3px rgba(14, 14, 14, 0.13);
+    padding: 56px 48px;
+    border-radius: 24px;
+    margin-bottom: 24px;
+}
+
+.Satellite .satellite-img img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+.Satellite .satellite-content h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+
+.Satellite .satellite-content img {
+    max-width: 134px;
+    margin-bottom: 12px;
+}
+
+.Satellite .satellite-content p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 12px;
+}
+
+.btn-4 {
+    background-color: #006A50;
+}
 
 /* style for small device  */
 @media screen and (max-width: 576px) {
@@ -364,11 +404,20 @@ header nav {
         /* max-width: 350px; */
     }
 
-    #Opinion-section .questions-container table{
+    #Opinion-section .questions-container table {
         .option {
             width: 80px;
 
         }
 
+    }
+
+    #recent-news{
+        padding: 20px;
+    }
+
+    .Satellite {
+        flex-direction: column;
+        gap: 32px;
     }
 }
