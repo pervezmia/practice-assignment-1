@@ -395,7 +395,7 @@ header nav {
     box-shadow: 1px 0px 2px 1px rgba(14, 14, 14, 0.15);
 }
 
-/* footer section  */
+/* newsletter section */
 
 .Newsletter-section{
     background-color: #C6E4D6;
@@ -409,12 +409,37 @@ header nav {
     text-align: center;
 }
 .Newsletter-container input{
-    width: 600px;
+    max-width: 600px;
     padding: 18px ;
     border: none;
     outline: none;
 }
 
+/* footer section  */
+footer{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+footer ul li{
+    list-style: none;
+    max-width: 24px;
+}
+.footer-content{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.footer-content hr{
+    max-width: 1122px;
+    
+    margin: 32px auto;
+}
 
 
 
