@@ -363,6 +363,51 @@ header nav {
     background-color: #006A50;
 }
 
+
+/* Donate section  */
+
+.donate-section {
+    padding: 80px 0px;
+}
+
+.money-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.money-card {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+}
+
+.donate-section input {
+    width: 100%;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    box-shadow: 1px 0px 2px 1px rgba(14, 14, 14, 0.15);
+}
+
+.footer{
+    
+}
+
+
+
+
+
+
+
+
+
+
 /* style for small device  */
 @media screen and (max-width: 576px) {
 
@@ -423,5 +468,15 @@ header nav {
 
     .Satellite .satellite-img img {
         width: 100%;
+    }
+
+    .donate-section {
+        padding: 20px;
+    }
+
+    .money-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin-bottom: 32px;
     }
 }
