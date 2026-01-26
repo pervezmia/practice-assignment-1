@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.hide {
+    display: none;
+}
+
 #all-page {
     background-color: #F1F1F3;
 }
@@ -121,12 +125,14 @@ header nav {
     box-shadow: 0px 0px 4px 2px rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.pillar:hover{
+
+.pillar:hover {
     transform: scale(1.05);
     transition: all 0.5s ease-out;
     background-color: #ceba8c;
     cursor: pointer;
 }
+
 .pillar-container div {
     padding: 24px;
 }
@@ -180,21 +186,22 @@ header nav {
 .card-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 32px;
 }
 
 
 .card {
-    max-width: 410px;
+    max-width: 380px;
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
 }
 
-.card:hover{
+/* .card:hover {
     transform: scale(1.05);
     transition: all 0.05s ease-in;
     cursor: pointer;
-}
+} */
 
 .card-2 {
 
@@ -235,7 +242,8 @@ header nav {
     background-color: #5490F5;
     color: #FFFFFF;
 }
-.btn:hover{
+
+.btn:hover {
     transform: scale(1.05);
     transition: all;
     cursor: pointer;
@@ -356,6 +364,10 @@ header nav {
     max-width: 408px;
 }
 
+.Satellite .satellite-content {
+    /* padding: 10px; */
+}
+
 .Satellite .satellite-content h3 {
     font-size: 2rem;
     font-weight: 700;
@@ -402,7 +414,7 @@ header nav {
     border: 1px solid rgba(14, 14, 14, 0.15);
 }
 
-.money-card:hover{
+.money-card:hover {
     transform: scale(1.1);
     transition: all 0.5s ease-in;
     cursor: pointer;
@@ -420,55 +432,63 @@ header nav {
 
 /* newsletter section */
 
-.Newsletter-section{
+.Newsletter-section {
     background-color: #C6E4D6;
     max-width: 1280px;
     margin: 0 auto;
     border-radius: 24px;
     margin-bottom: 80px;
 }
-.Newsletter-container{
+
+.Newsletter-container {
     padding: 80px 0px;
     text-align: center;
 }
-.Newsletter-container input{
+
+.Newsletter-container input {
     max-width: 600px;
-    padding: 18px ;
+    padding: 18px;
     border: none;
     outline: none;
 }
 
 /* footer section  */
-footer{
+footer {
     background-color: #FFFFFF;
     text-align: center;
 }
-footer ul{
+
+.footer-content {
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.footer-content hr {
+    /* max-width: 1122px; */
+
+    margin: 32px auto;
+}
+
+footer ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 23px;
 }
-footer ul li{
+
+footer ul li {
     list-style: none;
     max-width: 24px;
 }
 
-footer ul li a i:hover{
+footer ul li a i:hover {
     transform: scale(1.1);
     transition: all ease;
     filter: grayscale(100%);
 }
-.footer-content{
-    max-width: 1240px;
-    margin: 0 auto;
-    padding: 50px 0px;
-}
-.footer-content hr{
-    max-width: 1122px;
-    
-    margin: 32px auto;
-}
+
+
 
 
 
@@ -488,6 +508,11 @@ footer ul li a i:hover{
 
     }
 
+    .hero-container .hero-content h1 {
+        font-size: 2rem;
+
+    }
+
     .card-title {
         justify-content: center;
     }
@@ -500,18 +525,19 @@ footer ul li a i:hover{
 
     .card-container {
         flex-direction: column-reverse;
-        margin-bottom: 32px;
+        margin-bottom: 16px;
         gap: 12px;
         align-items: center;
     }
 
+
     .section-title {
         text-align: center;
-        margin: 0px 20px;
+        margin: 0px 10px;
     }
 
     .description-of-vision {
-        margin: 0px 20px;
+        margin: 0px 10px;
     }
 
     #Opinion-section {
@@ -534,6 +560,12 @@ footer ul li a i:hover{
     .Satellite {
         flex-direction: column;
         gap: 32px;
+        padding: 20px 20px;
+    }
+
+    .description-of-vision {
+        padding: 48px 5px;
+
     }
 
     .Satellite .satellite-img img {
@@ -549,16 +581,29 @@ footer ul li a i:hover{
         gap: 24px;
         margin-bottom: 32px;
     }
-    .Newsletter-section{
+
+    .Newsletter-section {
         margin: 10px;
     }
-    #Opinion-section{
+
+    #Opinion-section {
         padding: 10px;
     }
-    #vision{
+
+    #vision {
         margin: 10px;
     }
-    .pillar-of-bd .card-title h3{
+
+    .pillar-of-bd .card-title h3 {
         text-align: center;
     }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+
+    .nav-content,
+    .hero-container{
+        flex-direction: column;
+    }
+
 }
